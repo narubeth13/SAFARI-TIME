@@ -10,7 +10,7 @@ huntEevee = false        --hunt Eevee all time
 huntScyther = false        --hunt Scyther all time
 huntPinsir = false        --hunt Pinsir all time
 huntBulba = false        --hunt Bulbasaur all time
-huntChansey = false        --hunt Chansey all time
+huntChansey = false       --hunt Chansey all time
 huntRhyhorn = false        --hunt Rhyhorn all time
 huntKanga = false        --hunt Kangaskhan all time
 huntChanseyBulba = false        --hunt Chansey and Bulbasaur all time
@@ -20,8 +20,8 @@ huntChanseyBulba = false        --hunt Chansey and Bulbasaur all time
     -- Set to true if you want to catch multiple Pokemon at multiple time, else leave false
 
 huntEeveeRhyhorn = false    --hunt Eevee at Morning and Day        -- hunt Rhyhorn at Night
-huntEeveeBulba = true         --hunt Eevee at Morning and Day     -- hunt Bulbasaur at Night
-huntEeveeChansey = false    --hunt Eevee at Morning and Day        -- hunt Chansey at Night
+huntEeveeBulba = false         --hunt Eevee at Morning and Day     -- hunt Bulbasaur at Night
+huntEeveeChansey = true    --hunt Eevee at Morning and Day        -- hunt Chansey at Night
 huntEeveeScytherPinsir = false     --hunt Eevee at Morning and Day     -- hunt Scyther and Pinsir at Night
 
     --You can only use this if you have MEMBERSHIP
@@ -58,7 +58,7 @@ nature2 = "Adamant"    --Pokemon Nature of 2nd SynchPoke
 
 
 normalCatchOn = true        --Directly throw pokeballs on hunted pokemons
-fswipeOn = false        --Switch to pokemon with false swipe, use false swipe until the hunted pokes hp is reach to 1 then throw pokeballs
+fswipeOn = true        --Switch to pokemon with false swipe, use false swipe until the hunted pokes hp is reach to 1 then throw pokeballs
 sleepOn = false            --Switch to pokemon with sleep move, use sleep move until the hunted pokes status is SLEEPING then throw pokeballs
 advanceCatchOn = false        --Use fswipeOn and sleepOn to catch hunted pokes
 
